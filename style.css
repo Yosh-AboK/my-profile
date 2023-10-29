@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	color: white;
+} 
+
+h1 {
+	color: Orange;
+}
+
+
+/* Centre le texte */
+.centered-title {
+    text-align: center;
+}
+
+/* centre l'image et le texte */
+body {
+    background-position: center;
+    text-align: center;
+}
+
+/* Ajoute des cases pour chaque grande partie de la page */
+h2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center; /* Centre le texte dans les sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Effet de halo transparent */
+    transition: all 0.3s; /* Ajoute une transition */
+}
+
+h2:hover {
+    background-color: #731ae0; /* Couleur de fond au survol de la case */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Ombre plus prononcée au survol */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Effet de halo plus prononcé au survol */
+}
+
+
+/* Ajuste la taille de l'image de profil */
+img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Agrandi les icônes et les centrer */
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 120px; /* Ajuste la taille des icônes */
+    margin: 120px;
+}
+
+
